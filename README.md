@@ -1,2 +1,3 @@
-# SW_Development_2019102075_Gihyun_Kim
-This Repository is for SW Development Assignment
+# Kim Study Document
+This Repository is for studying various topics.
+RL, CV and so on.
