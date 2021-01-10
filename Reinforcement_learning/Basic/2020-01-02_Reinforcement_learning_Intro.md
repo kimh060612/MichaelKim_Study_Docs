@@ -31,14 +31,14 @@
 
 이 3가지 틀에는 다음과 같은 공통점이 있다.
 
-<p align="center"><img src="/assets/RLAlgo.png" width="50%"></p> <br>
+<p align="center"><img src="./assets/RLAlgo.png" width="50%"></p> <br>
 *(출처: 수학으로 풀어보는 강화학습 원리와 알고리즘, 저: 박성수)* <br>
 이에 대한 방법론으로 나오는 것이 위의 3가지 부류이다.
 
 ### 1. Value Function을 추정하는가? (Value-Based RL)
 -------------------------------------------------
 이 방법은 어떤 상태에서 행동을 할때 미래에 까지 얻을 수 있는 총 보상을 추정하는 함수를 구하는 방법이다. 구체적인 용어는 나중에 차차 알아가도록 하자. 우리는 이 방법으로 각 상태에서의 최선의 action을 취하는 함수를 추정해 나가는 것이 이 방법의 목적이 된다.
-<p align="center"><img src="/assets/VBRL.png" width="50%"></p> <br>
+<p align="center"><img src="./assets/VBRL.png" width="50%"></p> <br>
 
 *(출처: 수학으로 풀어보는 강화학습 원리와 알고리즘, 저: 박성수)* <br>
 
@@ -46,7 +46,7 @@
 -------------------------------------------------
 이 방법은 정책을 직접 유도하는 방식이다. 이는 정책을 직접 탐색하여 최선의 정책을 찾는 것을 목표로 하고 있다. 이는 앞으로 받을 보상의 기댓값을 최대로 하는 정책의 parameter($\theta$)를 직접 Gradient ascent로 계산하는 방식이다. 이 방식을 대체적으로 Policy Gradient라고 부른다.
 
-<p align="center"><img src="/assets/PGRL.png" width="50%"></p> <br>
+<p align="center"><img src="./assets/PGRL.png" width="50%"></p> <br>
 
 *(출처: 수학으로 풀어보는 강화학습 원리와 알고리즘, 저: 박성수)* <br>
 
@@ -54,7 +54,7 @@
 -------------------------------------------------
 위의 2가지 방식은 환경이 미지였으나 여기서는 "환경 모델"을 추정하는 방식이다. 이는 위의 2가지 방식과는 다르게 간단하고 효율적이기에 로봇 제어나 드론 제어에 많이 사용되고 있다.
 
-<p align="center"><img src="/assets/MBRL.png" width="50%"></p> <br>
+<p align="center"><img src="./assets/MBRL.png" width="50%"></p> <br>
 
 *(출처: 수학으로 풀어보는 강화학습 원리와 알고리즘, 저: 박성수)* <br>
 
